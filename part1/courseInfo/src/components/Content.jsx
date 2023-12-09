@@ -1,15 +1,14 @@
+import Part from "./Part"
 
 const Content = ({ parts }) => {
-    console.log(parts)
+
     return (
-        <>
+        <div>
             {parts.map(part => {
-                return <p key={part.name}>
-                    {part.name} {part.exercises}
-                </p>
+                return <Part key={part.name} name={part.name} exercises={part.exercises} />
             })}
 
-        </>
+        </div>
     )
 }
 
