@@ -5,6 +5,8 @@ import Total from "./components/Total";
 const App = () => {
   const course = 'Half Stack application development'
 
+  // restructure the parts into individual object
+
   const parts = [
     {
       name: 'Fundamentals of React',
@@ -19,9 +21,6 @@ const App = () => {
       exercises: 14,
     },
   ];
-
-
-
 
 
   return (
